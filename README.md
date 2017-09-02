@@ -24,7 +24,7 @@ npm install -g serve
 ```
 
 ## Slides
-* [Slides](https://docs.google.com/presentation/d/11L6HSSjWYcPrraOhQJ7SHKQR0tzgFRMOREocLpIUw-g/edit?usp=sharing)
+* [Slides](https://docs.google.com/presentation/d/11L6HSSjWYcPrraOhQJ7SHKQR0tzgFRMOREocLpIUw-g)
 
 ## Labs 
 1. [ECMAScript](https://docs.google.com/document/d/1HRvKl4T563O6MyfkmmN799IaWlwy-4JDn8T8khcD134)
