@@ -23,6 +23,9 @@ npm install -g typescript
 npm install -g serve
 ```
 
+## Slides
+* [Slides](https://docs.google.com/presentation/d/11L6HSSjWYcPrraOhQJ7SHKQR0tzgFRMOREocLpIUw-g/edit?usp=sharing)
+
 ## Labs 
 1. [ECMAScript](https://docs.google.com/document/d/1HRvKl4T563O6MyfkmmN799IaWlwy-4JDn8T8khcD134)
 2. [WASM](https://docs.google.com/document/d/1T-Adc5_LENCt6WJyOlcC9gaQQTBQWU-qcF7IswzcIKo)
