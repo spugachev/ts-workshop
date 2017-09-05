@@ -1,0 +1,28 @@
+{
+    "7e4f8be6-0415-4763-8727-e160170e8bdc": {
+        "type": "person", "firstName": "Ivan", "lastName": "Ivanov", 
+        "age": 29
+    },
+    "29e024e4-bd30-4e2f-8748-bc714474fee2": {
+        "type": "person", "firstName": "Vladimir", "lastName": "Savin", 
+        "age": 18
+    },
+    "64a3f617-7115-403c-b5a0-6d8fc944a982": {
+        "type": "person", "firstName": "Anna", "lastName": "Pavlova"
+    },
+    "8797a9f7-71f1-4bd5-91c4-416411a0bc06": {
+        "type": "person", "firstName": "Margaret", "lastName": "Smith", 
+        "age": 26
+    },
+    "a9912507-7d2e-44d4-8d43-1c123566136e": {
+        "type": "person", "firstName": "Sergey", "lastName": "Sergeev"
+    },
+    "35e4780d-4518-4187-8b3f-566b7f2695f6": {
+        "type": "employee", "firstName": "Nikita", "lastName": "Silin", 
+        "id": "1"
+    },
+    "1d9e1454-27a6-4354-9873-42512c138b80": {
+        "type": "employee", "firstName": "Mariya", "lastName": "Glezeva", 
+        "id": "2"
+    }
+}
