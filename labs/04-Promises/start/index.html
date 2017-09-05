@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TypeScript Workshop - Promises</title>
+    <script>
+    (function loadData(){
+        function makeRequest(url, done) {
+            const xhr = new XMLHttpRequest();
+            xhr.open('GET', url);
+
+            xhr.onload = function () {
+                done(null, xhr.response);
+            };
+
+            xhr.onerror = function () {
+                done(xhr.response);
+            };
+
+            xhr.send();
+        }
+
+        makeRequest('/data.json', (err, data) => {
+            if (err) { throw err; }
+            console.log('Callback:', data);
+        });
+    })();   
+
+    (async function loadData(){
+        function makeRequest(url) {
+            //CODE HERE
+        }
+
+        makeRequest('/data.json').then((data)=> {
+            console.log('Promises:', data);
+        }).catch((err) => {
+            console.error(err);
+        });
+
+        try{
+            const data = await makeRequest('/data.json');
+            console.log('Async/Await:', data);
+        }catch(err){
+            console.error(err);
+        }
+    })();  
+    </script>
+</head>
+<body>
+
+</body>
+</html>
