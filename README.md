@@ -14,13 +14,9 @@
 
 ### NPM Packages
 
-* TypeScript
+* TypeScript, ts-node, serve
 ```bash
-npm install -g typescript
-```
-* Serve
-```bash
-npm install -g serve
+npm install -g typescript ts-node serve
 ```
 
 ## Slides
