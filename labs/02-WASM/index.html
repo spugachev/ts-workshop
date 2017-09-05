@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TypeScript Workshop - WASM</title>
+	<script>
+		async function loadWasm(){
+			const res = await fetch('/program.wasm');
+			const bytes = await res.arrayBuffer();
+			const module = await WebAssembly.compile(bytes);
+			const instance = await WebAssembly.instantiate(module, {
+                	env: {
+                        notify: function(offset){
+                            const memory = instance.exports.memory;
+                            const strBuf = new Uint8Array(memory.buffer, offset, 256);
+                            const str = new TextDecoder().decode(strBuf);
+                            console.log(str);
+                        }
+                        
+                	}
+            	});
+
+                const offset = instance.exports.fib();		
+                const memory = instance.exports.memory;
+                const arr = new Uint32Array(memory.buffer, offset, 10);
+                console.dir(arr);
+
+                for(const item of arr){
+                    console.log(item);
+                }
+		}
+
+		loadWasm();	  
+	</script>
+</head>
+<body>
+
+</body>
+</html>
