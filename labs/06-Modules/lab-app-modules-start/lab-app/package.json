@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "name": "asp.net",
+  "private": true,
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "aspnet-webpack": "^2.0.1",
+    "typescript": "2.4.1",
+    "webpack": "2.5.1",
+    "webpack-hot-middleware": "2.18.2",
+    "webpack-merge": "4.1.0",
+    "awesome-typescript-loader": "3.2.1",
+    "angular2-template-loader": "0.6.2",
+    "html-loader": "0.4.5",
+    "to-string-loader": "1.1.5",
+    "url-loader": "0.5.9",
+    "css-loader": "^0.28.5"
+  },
+  "devDependencies": {
+  }
+}
